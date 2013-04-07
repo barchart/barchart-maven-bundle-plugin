@@ -39,11 +39,12 @@
   The plugin uses the Bnd tool (http://www.aqute.biz/Code/Bnd)
  </description>
 
- <scm>
-  <connection>scm:svn:http://svn.apache.org/repos/asf/felix/trunk/bundleplugin</connection>
-  <developerConnection>scm:svn:https://svn.apache.org/repos/asf/felix/trunk/bundleplugin</developerConnection>
-  <url>http://svn.apache.org/repos/asf/felix/trunk/bundleplugin</url>
- </scm>
+	<scm>
+		<url>https://github.com/barchart/barchart-maven-bundle-plugin</url>
+		<connection>scm:git:git://github.com/barchart/barchart-maven-bundle-plugin.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/barchart/barchart-maven-bundle-plugin.git</developerConnection>
+		<tag>master</tag>
+	</scm>
 
  <build>
   <plugins>
